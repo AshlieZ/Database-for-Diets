@@ -1,0 +1,70 @@
+<DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Database for Diets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="header2">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="navigation.html">Index</a></li>
+                    <li><a href="restrictions.html">Allergies/Restrictions</a></li>
+                    <li><a href="religion.html">Religion</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="ideology.html">Ideology</a></li>
+                    <li><a href="works-cited.html">Works Cited</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="diet">
+            <h1>Vegetarian Diet</h1>
+            <h2>Diet:</h2>
+            <ul>
+                <li>No meat</li>
+                <li>No dairy or eggs depending on the type of vegetarian</li>
+            </ul>
+            <h2>About:</h2>
+            <p>
+                Although vegetarianism is in the category of ideological belief, there are many more reasons a person may be vegetarian, such as  for religious belief, health benefits, or the fact that they do not like eating meat. However, people who are vegetarians due to ideological belief are generally vegetarian because they hate the idea of killing and eating animals.
+            </p>
+            <p>
+                There are three types of vegetarianism - lacto vegetarianism, ovo vegetarianism, and lacto-ovo vegetarianism. While all forms don’t eat meat, lacto vegetarians still allow dairy in their diets, ovo vegetarians allow eggs, and lact-ovo vegetarians allow both. A vegetarian who doesn’t eat eggs nor dairy is vegan.
+            </p>
+            <p>
+                Eggs and dairy are contended upon by vegetarians because they are byproducts of animals yet are not considered living. There are also other variations of vegetarianism, like pescetarianism where fish is the only meat they are allowed to eat, or pollotarian where they can only eat poultry but no other meats.
+            </p>
+        </div>
+    </section>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-220px";
+    }
+
+</script>
+
+</body>
+
+</html>
+</DOCTYPE>

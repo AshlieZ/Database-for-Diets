@@ -1,0 +1,68 @@
+<DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Database for Diets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="navigation.html">Index</a></li>
+                    <li><a href="restrictions.html">Allergies/Restrictions</a></li>
+                    <li><a href="religion.html">Religion</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="ideology.html">Ideology</a></li>
+                    <li><a href="works-cited.html">Works Cited</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Database for Diets</h1>
+            <p>Have you ever been out eating with a friend, but they're on a certain diet and you forget what they can eat?
+                Yeah, that has happened to me countless times. But rather than frantically researching the web in desperation,
+                this website is here to come in handy during that time of need!
+            </p>
+            <p>
+                This website is designed to act as a guide for
+                the most common dietary restrictions you'll come across.
+                Different dietary restrictions have been sorted based on purpose. You can click on the different purposes to discover
+                more about the diets that fall under it. The index tab is also there for you to check the index and see all of the
+                different diets listed on this website.
+            </p>
+
+        </div>
+
+    </section>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-220px";
+    }
+
+</script>
+
+</body>
+
+</html>
+</DOCTYPE>

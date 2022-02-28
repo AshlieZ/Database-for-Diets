@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Database for Diets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="header2">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="navigation.html">Index</a></li>
+                    <li><a href="restrictions.html">Allergies/Restrictions</a></li>
+                    <li><a href="religion.html">Religion</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="ideology.html">Ideology</a></li>
+                    <li><a href="works-cited.html">Works Cited</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="diet">
+            <h1>Lactose Intolerance</h1>
+            <h2>Diet:</h2>
+            <ul>
+                <li>No milk, other dairy products may vary from person to person</li>
+                <li>Symptoms can be abated by taking lactase supplements or other medications</li>
+            </ul>
+            <h2>About:</h2>
+            <p>Lactose is the main sugar component found in milk. When ingesting milk, our body uses
+                proteins called lactase to digest it. Those who are lactose intolerant do not produce
+                enough lactase in their small intestine to break down lactose, and end up experiencing
+                digestive-related symptoms, such as bloating, abdominal pain, gas, and diarrhea.
+                Lactose intolerance is a hereditary trait, and most people who are lactose intolerant
+                are born with it.
+            </p>
+            <p>People who are lactose intolerant generally abstain from milk and milk
+                products to avoid the discomfort of the symptoms. However, they are not life-threatening,
+                and some do choose to keep milk in their eating habits, just lessening the amount. Also,
+                different milk products have different levels of lactose. Things like yogurt or cheez-its
+                have low levels and may not even cause symptoms. There are also supplements like Lactaid
+                that contain lactase to help lactose intolerants break down lactose after ingesting it.
+            </p>
+        </div>
+    </section>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-220px";
+    }
+
+</script>
+
+</body>
+
+</html>
+</DOCTYPE>

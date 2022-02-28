@@ -1,0 +1,70 @@
+<DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Database for Diets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="navigation.html">Index</a></li>
+                    <li><a href="restrictions.html">Allergies/Restrictions</a></li>
+                    <li><a href="religion.html">Religion</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="ideology.html">Ideology</a></li>
+                    <li><a href="works-cited.html">Works Cited</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="works-cited">
+            <p>Works Cited</p>
+            <nav>
+                <div class="works-cited" id="workscited">
+                    <a href="https://my.clevelandclinic.org/health/diseases/14240-celiac-disease" target="_blank"><p class="p1">“Celiac Disease.” <i>Cleveland Clinic</i>, 10 Jan. 2020.</p></a>
+                    <a href="https://www.mayoclinic.org/diseases-conditions/celiac-disease/symptoms-causes/syc-20352220" target="_blank"><p class="p1">“Celiac Disease.” <i>Mayo Clinic</i>, Mayo Foundation for Medical Education and Research, 10 Aug. 2021.</p></a>
+                    <a href="https://www.webmd.com/women/reducing-dietary-fat" target="_blank"><p class="p1">Dansinger, Michael. “Low-Fat Diets for Weight Loss.” <i>WebMD</i>, WebMD LLC, 7 Feb. 2021.</p></a>
+                    <a href="https://acaai.org/allergies/allergic-conditions/food/" target="_blank"><p class="p1">“Food Allergy.” <i>American College of Allergy, Asthma & Immunology</i>, 2022.</p></a>
+                    <a href="https://www.independentnurse.co.uk/clinical-article/religion-and-dietary-choices/145719/" target="_blank"><p class="p1">Patience, Sara. “Religion and Dietary Choices.” <i>Independent Nurse</i>, MA Healthcare Ltd, 19 Sept. 2016.</p></a>
+                    <a href="https://www.bbc.co.uk/bitesize/guides/zv626yc/revision/8" target="_blank"><p class="p1">“Practices in Judaism.” <i>BBC</i>, 2022.</p></a>
+                    <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/lactose-intolerance#:~:text=Lactose%20intolerance%20is%20when%20your,your%20body%20can%20absorb%20it." target="_blank"><p class="p1">“Religion and Dietary Choices.” <i>John Hopkins Medicine</i>, Johns Hopkins, 2022.</p></a>
+                    <a href="https://jamanetwork.com/journals/jama/fullarticle/2753373" target="_blank"><p class="p1">Silberman, Eric S. and Jill Jin. “Lactose Intolerance.” <i>JAMA Network</i>, American Medical Association, 29 Oct. 2019.</p></a>
+                    <a href="https://www.icv.org.au/about/about-islam-overview/what-is-halal-a-guide-for-non-muslims/" target="_blank"><p class="p1">“What is Halal? A Guide for Non-Muslims.” <i>Islamic Council of Victoria</i>, 2019.</p></a>
+                    <a href="https://www.eatingwell.com/article/291245/complete-keto-diet-food-list-what-you-can-and-cannot-eat-if-youre-on-a-ketogenic-diet/#:~:text=List%20of%20Foods%20You%20Can,Sweetened%20yogurt" target="_blank"><p class="p1">Younkin, Lainey. “Complete Keto Diet Food List: What You Can and Cannot Eat if You're on a Ketogenic Diet.” <i>EatingWell</i>, 29 Oct. 2021.</p></a>
+                    <a href="https://www.eatingwell.com/article/290612/the-complete-paleo-diet-food-list-what-to-eat-and-what-to-avoid/" target="_blank"><p class="p1">Younkin, Lainey. “The Complete Paleo Diet Food List: What to Eat and What to Avoid.” <i>EatingWell</i>, 26 Oct. 2021.</p></a>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-220px";
+    }
+
+</script>
+
+</body>
+
+</html>
+</DOCTYPE>

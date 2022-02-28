@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Database for Diets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="header2">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="navigation.html">Index</a></li>
+                    <li><a href="restrictions.html">Allergies/Restrictions</a></li>
+                    <li><a href="religion.html">Religion</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="ideology.html">Ideology</a></li>
+                    <li><a href="works-cited.html">Works Cited</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="diet">
+            <h1>Kosher</h1>
+            <h2>Diet:</h2>
+            <ul>
+                <li>Restrictions on meat, common meats that are not allowed are shellfish and pork</li>
+                <li>Cannot eat meat with diary in the same meal</li>
+                <li>Meat must be prepared kosher</li>
+            </ul>
+            <h2>About:</h2>
+            <p>There is a portion of Jews who follow the kashrut, Jewish dietary laws. The food that these laws
+                allow are called kosher. These are the rules for allowed animals (meat):                
+            </p>
+            <ul>
+                <li style="list-style: circle;">Land animals must have split hooves and must eat grass</li>
+                <li style="list-style: circle;">Seafood must have fins and scales, so shellfish is not allowed</li>
+                <li style="list-style: circle;">It is forbidden to eat birds of prey, only birds that do not eat other animals, so oultry is allowed</li>
+                <li style="list-style: circle;">Meat and dairy cannot be eaten together</li>
+            </ul>
+            <p>Animals must also be slaughtered in a proper way by a shochet. Shochets are liscensed and trained to
+                slaughter animals following the kashrut. Blood must also be drained and animals that have died natural
+                deaths are forbidden from being eaten. Eating a kosher diet varies in the Jewish population; some
+                choose to follow it while others do not. A safe option for those who do eat kosher is to eat vegetarian 
+                outside, because the kashrut only has restrictions on meat.
+            </p>
+        </div>
+    </section>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-220px";
+    }
+
+</script>
+
+</body>
+
+</html>
+</DOCTYPE>
